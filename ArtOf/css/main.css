@@ -52,9 +52,11 @@ grey: e4e5e3;
 body{
 	width: 1000px;
 	font-size: 62.5%;
-	background: url(../images/background.jpg) no-repeat;
+	background: url(../images/deathitself.png), url(../images/fog.png);
+	background-repeat: no-repeat;
 	background-color: #000;
-	background-position: right top;
+	background-position: right top, center top;
+	background-width: 0, 100%;
 	margin: 0 auto;
 }
 
