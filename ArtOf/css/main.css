@@ -60,30 +60,29 @@ body{
 
 h3{
 	font-family: 'Frijole', cursive;
-	font-size: 1.700em;
-	color: #e4e5e3;
+	font-size: 1.900em;
+	color: #a80000;
 }
 
 /*	=	=	=	=	=	=	Navigation	=	=	=	=	=	=	=	=	*/
 
 head{
-	width: 96%;
+	width: 100%;
 }
 
 img#logo{
 	float: left;
-	margin: 02.083333333333%; /*20/960*/
-	margin-left: 03.125%; /*30/960*/
+	margin: 25px 0 0 0%; /*20/960*/ /*30/960*/
 }
 
 nav{
-	width: 60%;
+	width: 35%;
 	float: right;
-	margin: 100px -20.6875% 0px 02.083333333333%; /*45/960 20/960*/
+	margin: 80px -10% 0px 04.166%; /*45/960 20/960*/
 }
 
 nav ul li{
-	width: 20%;
+	width: 30%;
 	float: left;
 }
 
@@ -101,8 +100,8 @@ nav ul li a:hover{
 /* 	=	=	=	=	=	=	=	=	Page Styles =	=	=	=	=	=	=*/
 
 aside{
-	background-color: pink;
 	clear: left;
 	float: left;
+	margin: 25px 0 0 0;
 }
 
