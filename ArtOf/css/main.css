@@ -56,7 +56,6 @@ body{
 	background-repeat: no-repeat;
 	background-color: #000;
 	background-position: right top, center top;
-	background-width: 0, 100%;
 	margin: 0 auto;
 }
 
@@ -78,13 +77,13 @@ img#logo{
 }
 
 nav{
-	width: 35%;
+	width: 30%;
 	float: right;
-	margin: 80px -10% 0px 04.166%; /*45/960 20/960*/
+	margin: 80px -3% 0px 05.166%; /*45/960 20/960*/
 }
 
 nav ul li{
-	width: 30%;
+	width: 33%;
 	float: left;
 }
 
@@ -105,5 +104,9 @@ aside{
 	clear: left;
 	float: left;
 	margin: 25px 0 0 0;
+}
+
+#main{
+	float: none;
 }
 
