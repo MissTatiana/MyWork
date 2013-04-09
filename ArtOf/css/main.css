@@ -60,17 +60,18 @@ body{
 
 h3{
 	font-family: 'Frijole', cursive;
-	font-size: 1.900em;
+	font-size: 2.200em;
 	color: #a80000;
+	padding: 2.5px 0 6px 0;
 }
 
 h4{
 	font-family: 'Frijole', cursive;
-	font-size: 1.550em;
+	font-size: 1.650em;
 	color: #a80000;
 }
 
-p{
+p, dd{
 	font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
 	color: #e4e5e3;
 	font-size: 1.250em;
@@ -100,13 +101,13 @@ nav ul li{
 
 nav ul li a{
 	text-decoration: none;
-	color: #e4e5e3;
-	font-size: 2.000em;
+	color: #b7b6b6;
+	font-size: 2.100em;
 	font-family: 'Frijole', cursive;
 }
 
 nav ul li a:hover{
-	color: #53080c;
+	color: #9a3639;
 }
 
 /* 	=	=	=	=	=	=	=	=	Page Styles =	=	=	=	=	=	=*/
@@ -119,6 +120,30 @@ aside{
 
 .content{
 	float: right;
+}
+
+dl{
+	margin: 5px 0 0 10px;
+}
+
+dt{
+	padding: 2px 0 2px 10px;
+}
+
+dd{
+	width: 75%;
+	padding: 2px 0 0 20px;
+}
+
+dt a{
+	text-decoration: none;
+	color: #e4e5e3;
+	font-size: 1.600em;
+	font-family: 'Frijole', cursive;
+}
+
+dt a:hover{
+	color: #9a3639;
 }
 
 
