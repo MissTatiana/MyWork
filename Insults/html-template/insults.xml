@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<insults>
+	<insult>
+		<one>artless</one>
+		<two>base-court</two>
+		<three>apple-john</three>
+	</insult>
+	<insult>
+		<one>bawdy</one>
+		<two>bat-fowling</two>
+		<three>baggage</three>
+	</insult>
+	<insult>
+		<one>beslubbering</one>
+		<two>beef-witted</two>
+		<three>barnacle</three>
+	</insult>
+	<insult>
+		<one>bootless</one>
+		<two>beetle-headed</two>
+		<three>bladder</three>
+	</insult>
+	<insult>
+		<one>churlish</one>
+		<two>boil-brained</two>
+		<three>boar-pig</three>
+	</insult>
+	<insult>
+		<one>cockered</one>
+		<two>clapper-clawed</two>
+		<three>bugbear</three>
+	</insult>
+</insults>
