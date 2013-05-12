@@ -10,10 +10,10 @@ body{
 
 #signText {
 	position: relative;
-	top: -690px;
-	left: 250px;
-	width: 250px;
-    font-size: 2.5em;
+	top: -715px;
+	left: 225px;
+	width: 300px;
+    font-size: 3.0em;
     font-family: 'Swanky and Moo Moo', cursive;
     transform:rotate(-1.5deg);
 	-ms-transform:rotate(-1.5deg); /* IE 9 */

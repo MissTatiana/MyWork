@@ -21,9 +21,13 @@
 	octopus.src = "images/" + randomizingImages;
 
 	var wordsArray = [
-		"Your mother sucks cocks in hell", 
-		"I'm Eddy!", 
-		"Fuck off"
+		"I'm Eddy the octopus", 
+		"Happy Mother's day!", 
+		"I love you!",
+		"Best mom ever!",
+		"Thank you for always being there",
+		"I wouldn't be anywhere without your support",
+		"Have a special day"
 	];
 
 	var randomIndex = Math.floor(Math.random() * wordsArray.length);
