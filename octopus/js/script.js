@@ -28,7 +28,7 @@
 		"Thank you for always being there",
 		"I wouldn't be anywhere without your support",
 		"Have a special day"
-	];
+	]
 
 	var randomIndex = Math.floor(Math.random() * wordsArray.length);
 	var randomizing = wordsArray[randomIndex];
