@@ -12,5 +12,5 @@ yes.onmouseover = function(){
 }
 
 yes.onclick = function(){
-	alert("You sneeky liar!")
+	alert("You sneaky liar!")
 }
