@@ -1,5 +1,22 @@
+/*
+ *COLORS*
+ * tan - 888461
+ * dark sage - 45483f
+ * red - 522627
+ * dark red - 2a1319
+ * sand - 6c5a32
+ * dark sand - 4e411e
+ * grey - 44403f
+ * green - 111c160
+ * blue - 0b1933 - 102440
+ */
+
+/*	=	=	=	=	=	=	=	=	Regular Style	=	=	=	=	=	=	=	=	*/
+
 body{
 	text-align: center;
+	background: url(../images/background.jpg);
+	font-size: 62.5%
 }
 
 #wrap{
@@ -7,3 +24,24 @@ body{
 	margin: 0 auto;
 	text-align: left;
 }
+
+h4{
+	padding-top: 5px;
+	margin-left: 50px;
+	font-size: 3.000em; /*30px*/
+	color: #522627;
+}
+
+/*	=	=	=	=	DIV TOP	=	=	=	=	*/
+
+
+#power {
+	float: right;
+	clear: right;
+}
+
+#content{
+	float: none;
+}
+
+
