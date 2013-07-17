@@ -154,11 +154,23 @@ p, li, label{
 	float: none;
 }
 
+/*	=	=	FEATURES	=	=	*/
+#features {
+	width: 402px;
+	float: right;
+	margin: 70px 75px 0 0;
+}
+
+#features ul li {
+	list-style-type: circle;
+	line-height: 25px;
+}
+
 /*	=	=	SING UP FORM	=	=	*/
 
 #signUp{
-	width 460px;
-	float: left;
+	width 480px;
+	margin-left: 20px;
 }
 
 label{
@@ -192,11 +204,15 @@ input{
 	margin-left: 233px
 }
 
-/*	=	=	FEATURES	=	=	*/
-
 /*	=	=	WHY	=	=	*/
-#why {
-	float: none;
+#why p{
+	width: 425px;
+	padding-bottom: 30px;
+}
+
+ #floatP {
+	float: right;
+	margin-right: 25px;
 }
 
 
