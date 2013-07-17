@@ -143,6 +143,10 @@ p, li, label{
 	padding: 10px 10px 0 10px;
 }
 
+.top img {
+	padding-right: 5px;
+}
+
 .power {
 	float: right;
 	clear: right;
@@ -150,7 +154,7 @@ p, li, label{
 
 /*	=	=	=	CONTENT	=	=	=	=	*/
 
-#content{
+.content{
 	margin: 15px 0 0 38px;
 	float: none;
 }
@@ -217,4 +221,9 @@ input{
 }
 
 
+/*	=	=	=	=	=	ACTUAL TASK MANAGER	=	=	=	=	=	*/
+
+#taskMan{
+	padding-bottom: 50px;
+}
 
