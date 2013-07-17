@@ -91,7 +91,7 @@ h2{
 	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
 }
 
-p{
+p, li, label{
 	font-size: 2.000em; /*20px*/
 	color: #111c16;
 	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
