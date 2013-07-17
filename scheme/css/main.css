@@ -64,7 +64,7 @@ body{
 	font-size: 62.5%
 }
 
-#wrap{
+.wrap{
 	width: 960px; 
 	margin: 0 auto;
 	text-align: left;
@@ -136,13 +136,14 @@ p, li, label{
 	text-decoration: none;
 }
 
+
 /*	=	=	=	=	DIV TOP	=	=	=	=	*/
 
-#top {
+.top {
 	padding: 10px 10px 0 10px;
 }
 
-#power {
+.power {
 	float: right;
 	clear: right;
 }
