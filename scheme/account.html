@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Account Settings</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<link rel="icon" type="image/png" href="images/favicon.ico" />
+</head>
+	
+<body>
+<div class="wrap">
+	
+	<div class="top">
+		<img class="logo" src="images/shcemeLogo.png" width="125" height="124"/> <!-- 500/4 496/4 -->
+		<div class="power">
+			<a href="index.html"><img src="images/symbols/power.png" 
+										onmouseover="this.src='images/symbols/powerDown.png'" 
+										onmousedown="this.src='images/symbols/powerDown.png'" 
+										onmouseout="this.src='images/symbols/power.png'" width="57" height="62.9"></a> <!-- 570/10 629/10 -->
+		</div><!-- power -->
+	</div><!-- top -->
+	
+	<div class="content">
+		<h4>Account Settings</h4>
+		
+		<hr />
+		
+		<div id="accountSettings">
+			
+			<div class="accSection">
+				<h2>Email Address</h2>
+				
+				<div>
+					<label for="accEmail">Current Email:</label>
+					<input type="email" id="accEmail" name="accEmail" />
+				</div>
+				
+				<div>
+					<label for="accNewEmail">New Email:</label>
+					<input type="email" id="accNewEmail" name="accNewEmail" />
+				</div>
+				
+				<a href="#"><button class="btn">Save</button></a>
+			</div><!-- accSection -->
+			
+			<hr />
+			
+			<div class="accSection">
+				<h2>Reset Password</h2>
+				
+				<div>
+					<label for="oldPass">Current Password:</label>
+					<input type="password" id="oldPass" />
+				</div>
+				
+				<div>
+					<label for="newPass">New Password:</label>
+					<input type="password" id="newPass" name="newPass" />
+				</div>
+				
+				<div>
+					<label for="newPassConf">Confirm Password:</label>
+					<input type="password" id="newPassConf" name="newPassConf" />
+				</div>
+				
+				<a href="#"><button class="btn">Reset</button></a>
+			</div><!-- accSection -->
+			
+			<hr />
+			
+			<div class="accSection">
+				<h2>General Information</h2>
+				
+				<div>
+					<label for="genName">Name:</label>
+					<input type="text" class="genName" name="genName" />
+					<input type="text" class="genName" name="genName" />
+				</div>
+				
+				<div>
+					<label for="genUser">Username:</label>
+					<input type="test" id="genUser" name="genUser" />
+				</div>
+				
+				<div>
+					<label for="genAff">Affiliation:</label>
+					<input type="text" id="genAff" name="genAff" />
+				</div>
+				
+				<div>
+					<label for="genOcc">Occupation</label>
+					<select id="genOcc" name="genOcc">
+						<option value="Healthcare Practioner and Technical">Healthcare Practioner and Technical</option>
+						<option value="Healthcae Support">Healthcare Supprt</option>
+						<option value="Installation, maintenance, and repair">Installation, Maintenance and repair</option>
+						<option value="Legal">Legal</option>
+						<option value="Life, physical and Social science">Life, Physical and Social Science</option>
+						<option value="Management">Manaagement</option>
+						<option value="Military Specific">Military Specific</option>
+						<option value="Off and Administrative Support">Office and Administrative Support</option>
+						<option value="Personal Care and Service">Personal Care and Service</option>
+						<option value="Product/manufactoring">Product/Manufactoring</option>
+						<option value="Protective Services">Protective Services</option>
+						<option value="Sales and Related">Sales and Related</option>
+						<option value="Student">Student</option>
+						<option value="Transportational and Moving">Transportational and Moving</option>
+					</select>
+				</div>
+				
+				<a href="#"><button class="btn">Save Changes</button></a>
+			</div>
+			
+			
+			
+		</div><!-- accountSettings -->
+	</div><!-- content -->
+	
+	
+</div><!-- wrap -->
+			
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
+
+
