@@ -162,6 +162,76 @@ a {
 	clear: right;
 }
 
+/*	=	=	=	=	LOGIN	=	=	=	=	*/
+
+#login {
+	position: absolute;
+	visibility: hidden;
+	background-color: #45483f;
+	width: 500px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	margin-left: 250px;
+	text-align: center;
+}
+
+#login label {
+	text-align: left;
+	margin-left: 115px;
+}
+
+#login input {
+	width: 250px;
+}
+
+#logPass {
+	text-decoration: none;
+	font-size: 2.000em;
+	color: #0b1933;
+	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+	border-bottom: 1px solid #0b1933;
+	margin-right: 140px;
+}
+
+#logPass:hover {
+	color: #111c16;
+}
+
+#login button {
+	margin: 20px 0 20px 300px;
+}
+
+
+/*	=	=	=	=	LOGOUT	=	=	=	=	*/
+
+#logout {
+	position: absolute;
+	visibility: hidden;
+	background-color: #45483f;
+	width: 500px;
+	height: 200px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	margin-left: 250px;
+	text-align: center;
+}
+
+#logout h4 {
+	margin-top: 50px;
+}
+
+#logoutButtons {
+	margin: 10px 0 20px 130px;
+}
+
+#cancel {
+	width: 150px;
+	float: left;
+	clear: left;
+}
+
 /*	=	=	=	CONTENT	=	=	=	=	*/
 
 .content{
