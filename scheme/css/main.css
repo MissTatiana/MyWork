@@ -99,7 +99,7 @@ h2{
 	padding-top: 10px;
 }
 
-p, li, label{
+p, li, label {
 	font-size: 2.000em; /*20px*/
 	color: #111c16;
 	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
@@ -233,3 +233,35 @@ input{
 	padding-bottom: 50px;
 }
 
+/*	=	=	=	=	ACCOUNT SETTINGS	=	=	=	=	*/
+
+#accountSettings {
+	padding-bottom: 50px;
+}
+
+.accSection label {
+	display: inline;
+	float: left;
+	clear: left;
+	width: 200px;
+	text-align: right;
+	margin-right: 5px;
+}
+
+.genName input {
+	width: 150;
+}
+
+.accSection input {
+	height: 15px;
+	width: 200px;
+}
+
+select {
+	height: 15px;
+	margin-top: 4px;
+}
+
+.accSection button {
+	margin: 10px 0 0 600px;
+}
