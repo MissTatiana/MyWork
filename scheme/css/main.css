@@ -213,7 +213,7 @@ a {
 
 #logout {
 	position: absolute;
-	/*visibility: hidden;*/
+	visibility: hidden;
 	background-color: #45483f;
 	width: 500px;width: 37.0833333%; /*500/960*/
 	height: 200px;
@@ -241,7 +241,7 @@ a {
 /*	=	=	=	=	=	=	=	CONTENT	=	=	=	=	=	=	=	=	*/
 
 .content{
-	margin: 15px 100px 0 0; /*15/960 38/960*/
+	margin: 15px 100px 0 03.9583333%; /*15/960 38/960*/
 	float: none;
 }
 
@@ -253,13 +253,13 @@ a {
 
 #signUp {
 	width: 42.6666667%; /*400/960*/
-	margin: 01.5625% 0 0 01.5625%; /*15/960 15/960*/
+	margin: 01.5625% 02.0833333% 0 01.5625%; /*15/960 15/960*/
 	float: left;
 	clear: left;
 }
 
 #suHeading h4 {
-	width: 36.25%; /*145/400*/
+	width: 39.25%; /*145/400*/
 	float: left;
 	clear: left;
 }
@@ -278,13 +278,13 @@ a {
 }
 
 #first {
-	width: 42.5%; /*170/400*/
+	width: 47.5%; /*170/400*/
 	float: left;
 	clear: left;
 }
 
 #pass {
-	width: 42.5%; /*170/400*/
+	width: 47.5%; /*170/400*/
 	float: left;
 	clear: left;
 }
@@ -313,13 +313,12 @@ a {
 }
 
 #why p {
-	width: 47.2708333%; /*425/960*/
+	width: 48.2708333%; /*425/960*/
 }
 
 #floatP {
 	float: right;
 	clear: right;
-	margin-right: 03.25%; /*25/400*/
 }
 
 
