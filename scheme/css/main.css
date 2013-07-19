@@ -75,6 +75,7 @@ hr{
 	height: 12px;
 	border: 0;
 	box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, .9);
+	width: 900px;
 }
 
 h4{
@@ -95,7 +96,7 @@ h2{
 	font-size: 3.000em; /*30px*/
 	color: #111c16;
 	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
-	margin: 0.5208333% 0 1.0416667% 0; /*5/960 10/960*/
+	margin: 5px 0 10px 0;
 	padding-top: 10px;
 }
 
@@ -150,16 +151,21 @@ a {
 /*	=	=	=	=	DIV TOP	=	=	=	=	*/
 
 .top {
-	padding: 01.0416667% 01.0416667% 0 01.0416667%; /*10/960*/
+	padding: 10px 01.0416667% 50px 01.0416667%; /*10/960*/
 }
 
 .top img {
 	padding-right: 00.5208333%; /*5/960*/
 }
 
-.power {
-	float: right;
-	clear: right;
+.logo {
+	float: left;
+	clear: left;
+	margin-right: 69.7083333%; /*650/960*/
+}
+
+#set {
+	visibility: hidden;
 }
 
 /*	=	=	=	=	LOGIN	=	=	=	=	*/
@@ -313,7 +319,7 @@ a {
 }
 
 
-/*	=	=	=	=	=	ACTUAL TASK MANAGER	=	=	=	=	=	*/
+/*	=	=	=	=	=	=	ACTUAL TASK MANAGER		=	=	=	=	=	=	*/
 
 #taskMan{
 	padding-bottom: 50px;
@@ -341,18 +347,20 @@ a {
 	display: inline;
 	float: left;
 	clear: left;
-	width: 200px;
+	width: 20.8333333%; /*200/960*/
 	text-align: right;
 	margin-right: 5px;
 }
 
+
 .genName input {
-	width: 150;
+	width: 75%; /*150/200*/
 }
 
 .accSection input {
 	height: 15px;
-	width: 200px;
+	width: 23%; /*200/200*/
+	margin-bottom: 10px;
 }
 
 select {
@@ -361,18 +369,18 @@ select {
 }
 
 .accSection button {
-	margin: 10px 0 0 600px;
+	margin: 10px 0 0 64.5%; /*600/960*/
 }
 
 /*	=	=	=	FORGET PASSWORD	=	=	=	*/
 
 #forget {
-	margin: 20px 0 0 15px;
+	margin: 20px 0 0 01.5625%; /*15/960*/
 	padding-bottom: 50px;
 }
 
 #forget p {
-	margin: 0 0 10px 10px;
+	margin: 0 0 10px 01.0416667%; /*10/960*/
 	
 }
 
@@ -380,13 +388,13 @@ select {
 	display: inline;
 	float: left;
 	clear: left;
-	width: 100px;
+	width: 10.4166667%; /*100/960*/
 	text-align: right;
-	margin-right: 5px;
+	margin-right: 00.5208333%; /*5/960*/
 }
 
 #forget button {
-		margin-left: 200px;
+		margin: 10px 0 0 20.8333333%; /*200/960*/
 }
 
 
