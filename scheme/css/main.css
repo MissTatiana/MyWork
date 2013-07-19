@@ -161,7 +161,7 @@ a {
 .logo {
 	float: left;
 	clear: left;
-	margin-right: 69.7083333%; /*650/960*/
+	margin-right: 650px;
 }
 
 #set {
@@ -213,7 +213,7 @@ a {
 
 #logout {
 	position: absolute;
-	visibility: hidden;
+	/*visibility: hidden;*/
 	background-color: #45483f;
 	width: 500px;width: 37.0833333%; /*500/960*/
 	height: 200px;
@@ -241,8 +241,12 @@ a {
 /*	=	=	=	=	=	=	=	CONTENT	=	=	=	=	=	=	=	=	*/
 
 .content{
-	margin: 01.5625% 0 0 03.9583333%; /*15/960 38/960*/
+	margin: 15px 100px 0 0; /*15/960 38/960*/
 	float: none;
+}
+
+#display {
+	max-width: 40%;
 }
 
 /*	=	=	=	SIGN UP	=	=	=	*/
@@ -397,7 +401,3 @@ select {
 		margin: 10px 0 0 20.8333333%; /*200/960*/
 }
 
-
-/*	=	=	=	=	=	=	=	MEDIA QUERIES	=	=	=	=	=	=	*/
-
-@
