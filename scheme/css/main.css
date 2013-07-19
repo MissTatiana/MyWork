@@ -242,14 +242,14 @@ a {
 /*	=	=	=	SIGN UP	=	=	=	*/
 
 #signUp {
-	width: 400px;
-	margin: 15px 0 0 15px;
+	width: 42.6666667%; /*400/960*/
+	margin: 01.5625% 0 0 01.5625%; /*15/960 15/960*/
 	float: left;
 	clear: left;
 }
 
 #suHeading h4 {
-	width: 145px;
+	width: 36.25%; /*145/400*/
 	float: left;
 	clear: left;
 }
@@ -264,17 +264,17 @@ a {
 }
 
 .bigger input {
-	width: 250px;
+	width: 63.5%; /*250/400*/
 }
 
 #first {
-	width: 170px;
+	width: 42.5%; /*170/400*/
 	float: left;
 	clear: left;
 }
 
 #pass {
-	width: 170px;
+	width: 42.5%; /*170/400*/
 	float: left;
 	clear: left;
 }
@@ -298,18 +298,18 @@ a {
 /*	=	=	=	WHY	=	=	=	*/
 
 #why {
-	margin-left: 15px;
+	margin-left: 01.5625%; /*15/960*/
 	padding-bottom: 20px;
 }
 
 #why p {
-	width: 425px;
+	width: 47.2708333%; /*425/960*/
 }
 
 #floatP {
 	float: right;
 	clear: right;
-	margin-right: 25px;
+	margin-right: 03.25%; /*25/400*/
 }
 
 
