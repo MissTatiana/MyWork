@@ -22,12 +22,12 @@
 
 	var wordsArray = [
 		"I'm Eddy the octopus", 
-		"Happy Mother's day!", 
+		"HAPPY BIRTHDAY JOHN!", 
 		"I love you!",
-		"Best mom ever!",
-		"Thank you for always being there",
-		"I wouldn't be anywhere without your support",
-		"Have a special day"
+		"Baby brother! :D",
+		"You're an old man now",
+		"Have the best birthday ever",
+		"You are now a tweenager"
 	]
 
 	var randomIndex = Math.floor(Math.random() * wordsArray.length);
