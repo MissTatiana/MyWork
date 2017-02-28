@@ -22,7 +22,7 @@
 
 	var wordsArray = [
 		"I'm Eddy the octopus", 
-		"HAPPY BIRTHDAY JOHN!", 
+		"HAPPY BIRTHDAY DAD!", 
 		"I love you!",
 		"Baby brother! :D",
 		"You're an old man now",
